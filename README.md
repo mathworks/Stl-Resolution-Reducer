@@ -1,7 +1,6 @@
 # STL Resolution Reducer 
 
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks/Stl-Resolution-Reducer)
-[![View Stl-Resolution-Reducer on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/99999-Stl-Resolution-Reducder)  
 
 The STL Resolution Reducer streamlines the process of decreasing the number of faces in STL files, enabling smoother animations for highly precise 3D mechanical simulation models, such as Simscape&trade; Multibody&trade;. This essential tool aids in visual verification and seeks to optimize the balance between simulation speed and rendering accuracy.
 
