@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2510759653" file="C:\Users\ywatanab\OneDrive - MathWorks\github\StlResolutionReducer\STL Resolution Reducer.prj" location="C:\Users\ywatanab\OneDrive - MathWorks\github\StlResolutionReducer" name="STL Resolution Reducer" target="target.mlapps" target-name="アプリのパッケージ化">
+  <configuration build-checksum="3709139928" file="C:\Users\ywatanab\OneDrive - MathWorks\github\Stl-Resolution-Reducer\STL Resolution Reducer.prj" location="C:\Users\ywatanab\OneDrive - MathWorks\github\Stl-Resolution-Reducer" name="STL Resolution Reducer" target="target.mlapps" target-name="アプリのパッケージ化">
     <param.appname>STL Resolution Reducer</param.appname>
     <param.authnamewatermark>Yoshio Watanabe</param.authnamewatermark>
     <param.email>ywatanab@mathworks.com</param.email>
@@ -13,7 +13,7 @@
 4. Overwrite the STL file
 
 Copyright 2024 The MathWorks, Inc.</param.description>
-    <param.screenshot>C:\Users\ywatanab\AppData\Local\Temp\tpa76c4b6b_008e_42a7_81dd_1828c843c380.png</param.screenshot>
+    <param.screenshot />
     <param.version>1.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -22,7 +22,7 @@ Copyright 2024 The MathWorks, Inc.</param.description>
       <item>1</item>
     </param.products.id>
     <param.products.version>
-      <item>23.2</item>
+      <item>24.1</item>
     </param.products.version>
     <param.platforms />
     <param.output>${PROJECT_ROOT}</param.output>
@@ -30,6 +30,7 @@ Copyright 2024 The MathWorks, Inc.</param.description>
     <unset>
       <param.icon />
       <param.icons />
+      <param.screenshot />
       <param.version />
       <param.platforms />
       <param.output />
@@ -43,16 +44,14 @@ Copyright 2024 The MathWorks, Inc.</param.description>
     </fileset.resources>
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\ywatanab\OneDrive - MathWorks\github" name="StlResolutionReducer" optional="false">C:\Users\ywatanab\OneDrive - MathWorks\github\StlResolutionReducer</file>
+      <file location="C:\Users\ywatanab\OneDrive - MathWorks\github" name="Stl-Resolution-Reducer" optional="false">C:\Users\ywatanab\OneDrive - MathWorks\github\Stl-Resolution-Reducer</file>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2023b</root>
+      <root>C:\Program Files\MATLAB\R2024a</root>
       <toolboxes>
         <toolbox name="matlabcoder" />
         <toolbox name="embeddedcoder" />
-        <toolbox name="fixedpoint" />
-        <toolbox name="matlabhdlcoder" />
         <toolbox name="neuralnetwork" />
       </toolboxes>
       <toolbox>
@@ -64,16 +63,6 @@ Copyright 2024 The MathWorks, Inc.</param.description>
         <embeddedcoder>
           <enabled>true</enabled>
         </embeddedcoder>
-      </toolbox>
-      <toolbox>
-        <fixedpoint>
-          <enabled>true</enabled>
-        </fixedpoint>
-      </toolbox>
-      <toolbox>
-        <matlabhdlcoder>
-          <enabled>true</enabled>
-        </matlabhdlcoder>
       </toolbox>
       <toolbox>
         <neuralnetwork>
